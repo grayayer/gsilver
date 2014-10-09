@@ -1,8 +1,270 @@
+@charset "UTF-8";
 /*
 Theme Name:     GSILVER
 Description:    Child theme for Buro theme
 Author: 		Gray Ayer;
 Template:       buro
-Version:        0.1
+Version:        0.2
 */
 @import url("../buro/style.css");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000316}}
+.widget_woo_feedback blockquote {
+  text-align: left;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000319}}
+.widget_woo_feedback blockquote:before {
+  content: '“';
+  padding-right: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000323}}
+.widget_woo_feedback blockquote:after {
+  content: '”';
+  padding-left: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000329}}
+.widget_woo_feedback cite {
+  text-align: right;
+  color: white;
+  font-style: normal;
+  padding-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000334}}
+.widget_woo_feedback cite:before {
+  content: '—';
+  padding-right: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000340}}
+section#latest-articles article {
+  float: left;
+  width: 28.32%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000345}}
+body.home div.banner {
+  background: url("images/phone_cord.png") no-repeat 8px center white;
+  padding-left: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000348}}
+body.home div.banner h3, body.home div.banner p {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000351}}
+body.home div.banner span.edge, body.home div.banner span.ribbon {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000354}}
+body.home div.banner .phone_number {
+  font-family: 'droid-sans';
+  font-weight: normal;
+  font-size: 1.6em;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
+
+/*TYPOGRAPHY*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000365}}
+body {
+  color: #FDF6ED;
+  font: 15px/1.585 Droid Sans, Helvetica, Arial, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000369}}
+body a, body a:visited {
+  color: #b29234;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000374}}
+body a:hover {
+  text-decoration: underline;
+  color: #d7be75;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/style\.scss}line{font-family:\0000379}}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  color: #B26834;
+  font-family: Droid Serif, Georgia, times, serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\000033}}
+div#content .gform_wrapper ul {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\000037}}
+div#content .gform_wrapper li, div#content .gform_wrapper form li {
+  margin-left: 0 !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style: none !important;
+  overflow: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000315}}
+div#content .gform_wrapper input[type=text], div#content .gform_wrapper input[type=url], div#content .gform_wrapper input[type=email], div#content .gform_wrapper input[type=tel], div#content .gform_wrapper input[type=number], div#content .gform_wrapper .gform_wrapper input[type=password]
+textarea.textarea {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px 2px 5px 9px !important;
+  border-radius: 5px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000324}}
+div#content .gform_wrapper .gf_left_half, div#content .gform_wrapper .gf_right_half {
+  width: 37%;
+  float: left;
+  margin-right: .5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000330}}
+div#content .gform_wrapper label {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000332}}
+div#content .gform_wrapper label#label_5_1 {
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000339}}
+div#content .gform_wrapper ul#input_2_5.gfield_checkbox {
+  margin-left: 0 !important;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000344}}
+div#content .gform_wrapper .top_label {
+  /*label {
+  	display: block;
+  	margin: 0 0 3px;
+  	font-size: 11px;
+  	letter-spacing: 0.5pt;
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000345}}
+div#content .gform_wrapper .top_label .ginput_left, div#content .gform_wrapper .top_label .ginput_right, div#content .gform_wrapper .top_label .ginput_full {
+  min-height: 43px;
+  display: block;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000349}}
+div#content .gform_wrapper .top_label .ginput_left input, div#content .gform_wrapper .top_label .ginput_left input.medium, div#content .gform_wrapper .top_label .ginput_right input, div#content .gform_wrapper .top_label .ginput_right input.medium, div#content .gform_wrapper .top_label .ginput_full input, div#content .gform_wrapper .top_label .ginput_full input.medium {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000353}}
+div#content .gform_wrapper .top_label .ginput_left {
+  width: 49%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000357}}
+div#content .gform_wrapper .top_label .ginput_right {
+  width: 49%;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000368}}
+div#content .gform_wrapper .top_label input.medium, div#content .gform_wrapper .top_label select.medium {
+  width: 47%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000372}}
+div#content .gform_wrapper .top_label textarea.textarea {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px 2px 5px 9px !important;
+  border-radius: 5px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000382}}
+div#content .gform_wrapper .round-submit input.button, div#content .gform_wrapper .round-submit input[type=submit], div#content .gform_wrapper .round-submit #gform_submit_button_1 {
+  font-size: 1em;
+  border-radius: 100%;
+  font-family: geometria;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  padding: .58rem .5rem .42rem .5rem;
+  line-height: 1.5rem;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000395}}
+div#content .gform_wrapper span.prefix {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\0000399}}
+div#content .gform_wrapper .gform_footer.top_label {
+  padding: 0;
+  margin: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003105}}
+div#content .gform_wrapper .gform_validation_container {
+  display: none;
+}
+
+/*widget and sidebar styling*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003114}}
+.gform_widget .gform_wrapper .top_label ul, .email_signup .gform_wrapper .top_label ul, .ebook_widget .gform_wrapper .top_label ul {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003118}}
+.gform_widget .gform_wrapper .top_label li, .gform_widget .gform_wrapper .top_label form li, .email_signup .gform_wrapper .top_label li, .email_signup .gform_wrapper .top_label form li, .ebook_widget .gform_wrapper .top_label li, .ebook_widget .gform_wrapper .top_label form li {
+  margin-left: 0 !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style: none !important;
+  overflow: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003125}}
+.gform_widget .gform_wrapper .top_label .gfield_label, .email_signup .gform_wrapper .top_label .gfield_label, .ebook_widget .gform_wrapper .top_label .gfield_label {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003129}}
+.gform_widget .gform_wrapper .top_label input[type=text], .gform_widget .gform_wrapper .top_label input[type=url], .gform_widget .gform_wrapper .top_label input[type=email], .gform_widget .gform_wrapper .top_label input[type=tel], .gform_widget .gform_wrapper .top_label input[type=number], .gform_widget .gform_wrapper .top_label .gform_wrapper input[type=password], .email_signup .gform_wrapper .top_label input[type=text], .email_signup .gform_wrapper .top_label input[type=url], .email_signup .gform_wrapper .top_label input[type=email], .email_signup .gform_wrapper .top_label input[type=tel], .email_signup .gform_wrapper .top_label input[type=number], .email_signup .gform_wrapper .top_label .gform_wrapper input[type=password], .ebook_widget .gform_wrapper .top_label input[type=text], .ebook_widget .gform_wrapper .top_label input[type=url], .ebook_widget .gform_wrapper .top_label input[type=email], .ebook_widget .gform_wrapper .top_label input[type=tel], .ebook_widget .gform_wrapper .top_label input[type=number], .ebook_widget .gform_wrapper .top_label .gform_wrapper input[type=password] {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px 2px 5px 9px;
+  border-radius: 5px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003138}}
+.gform_widget .gform_wrapper .top_label .round-submit input.button, .gform_widget .gform_wrapper .top_label .round-submit input[type=submit], .gform_widget .gform_wrapper .top_label .round-submit #gform_submit_button_1, .email_signup .gform_wrapper .top_label .round-submit input.button, .email_signup .gform_wrapper .top_label .round-submit input[type=submit], .email_signup .gform_wrapper .top_label .round-submit #gform_submit_button_1, .ebook_widget .gform_wrapper .top_label .round-submit input.button, .ebook_widget .gform_wrapper .top_label .round-submit input[type=submit], .ebook_widget .gform_wrapper .top_label .round-submit #gform_submit_button_1 {
+  font-size: 1em;
+  border-radius: 100%;
+  font-family: geometria;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  padding: .58rem .5rem .42rem .5rem;
+  line-height: 1.5rem;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003151}}
+.gform_widget .gform_wrapper .top_label span.prefix, .email_signup .gform_wrapper .top_label span.prefix, .ebook_widget .gform_wrapper .top_label span.prefix {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003155}}
+.gform_widget .gform_wrapper .top_label .gf_left_half, .gform_widget .gform_wrapper .top_label .gf_right_half, .email_signup .gform_wrapper .top_label .gf_left_half, .email_signup .gform_wrapper .top_label .gf_right_half, .ebook_widget .gform_wrapper .top_label .gf_left_half, .ebook_widget .gform_wrapper .top_label .gf_right_half {
+  width: 37%;
+  float: left;
+  margin-right: .5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003161}}
+.gform_widget .gform_wrapper .top_label .gform_footer.top_label, .email_signup .gform_wrapper .top_label .gform_footer.top_label, .ebook_widget .gform_wrapper .top_label .gform_footer.top_label {
+  /*the go button*/
+  padding: 0;
+  margin: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003165}}
+.gform_widget .gform_wrapper .top_label .gform_footer.top_label input, .email_signup .gform_wrapper .top_label .gform_footer.top_label input, .ebook_widget .gform_wrapper .top_label .gform_footer.top_label input {
+  width: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003170}}
+.gform_widget .gform_wrapper .top_label .gform_validation_container, .email_signup .gform_wrapper .top_label .gform_validation_container, .ebook_widget .gform_wrapper .top_label .gform_validation_container {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gsilver\/wp-content\/themes\/gsilver\/scss\/_forms\.scss}line{font-family:\00003176}}
+div.entry-content .gform_wrapper {
+  clear: both;
+  padding-top: .5rem;
+}

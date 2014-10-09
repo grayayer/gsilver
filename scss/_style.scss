@@ -3,33 +3,23 @@ Theme Name:     GSILVER
 Description:    Child theme for Buro theme
 Author: 		Gray Ayer;
 Template:       buro
-Version:        0.2
+Version:        0.1
 */
-
 @import url("../buro/style.css");
+@import 'gforms';
 
 
 $paragraph-color: #FFF;
 $link-color: #B29234;
-$global-radius: 5px;
 
 .widget_woo_feedback blockquote {
 	text-align: left;
-	font-style: italic;
-	&:before {
-		content:'“';
-		padding-right: 2px;
-	}
-	&:after {
-		content:'”';
-		padding-left: 2px;
-	}	
 }
 
 .widget_woo_feedback cite {
 	text-align: right;
 	color: $paragraph-color;
-	font-style: normal;
+	font-style: italic;
 	padding-right: 6px;
 	&:before {
 		content: '—';
@@ -85,4 +75,3 @@ body {
 	}
 }
 
-@import 'forms';
