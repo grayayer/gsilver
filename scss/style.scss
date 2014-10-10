@@ -12,6 +12,8 @@ Version:        0.2
 $paragraph-color: #FFF;
 $link-color: #B29234;
 $global-radius: 5px;
+$background_element_fill:rgba(31, 27, 26,0.7);
+
 
 .widget_woo_feedback blockquote {
 	text-align: left;
@@ -84,5 +86,11 @@ body {
 		text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
 	}
 }
+
+/***  header area *******/
+header .nav {
+	background: $background_element_fill;
+}
+
 
 @import 'forms';

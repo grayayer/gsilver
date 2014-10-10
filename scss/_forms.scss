@@ -69,12 +69,16 @@ div#content .gform_wrapper {
 			width: 47%;
 		}
 
-		textarea.textarea {
-			font-size: inherit;
-			font-family: inherit;
-			padding: 5px 2px 5px 9px !important;
-			border-radius: $global-radius;
-			color: #ccc;
+		input[type=text], textarea {
+			background: $background_element_fill;
+			
+			&.textarea {
+				font-size: inherit;
+				font-family: inherit;
+				padding: 5px 2px 5px 9px !important;
+				border-radius: $global-radius;
+				color: #ccc;
+			}
 		}		
 	}
 
